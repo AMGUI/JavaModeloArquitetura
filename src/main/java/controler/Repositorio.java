@@ -1,10 +1,8 @@
 package controler;
+import java.net.http.HttpResponse;
 
-import model.Movies;
-
-import java.util.List;
 
 public interface Repositorio {
-List<Movies> showMovies();
-void addMovie(Movies modelPessoa);
+    public HttpResponse<String>  setTransmition();
+    public HttpResponse<String> getTransmition();
 }

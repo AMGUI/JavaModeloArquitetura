@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ClientSevice {
     public ClientSevice(){
-        getApi();
+
     }
 
     public HttpResponse<String> getApi() {
