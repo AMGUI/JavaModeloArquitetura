@@ -4,12 +4,13 @@ package model;
 import com.google.gson.annotations.SerializedName;
 
 public class Movies {
+
     @SerializedName("movieId")
-     int movieId;
+    public  int movieId;
     @SerializedName("title")
-     String title;
+    public String title;
     @SerializedName("genres")
-     String genres;
+    public String genres;
 
 
 }
